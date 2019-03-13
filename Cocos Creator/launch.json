@@ -1,0 +1,19 @@
+{
+    "version": "1.4.0",
+    "configurations": [
+        {
+            "name": "Launch Chrome",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:7456",
+            "sourceMaps": true,
+            "runtimeExecutable": "C:/Program Files (x86)/Google/Chrome Dev/Application/chrome.exe",
+            "userDataDir": "${workspaceRoot}/.vscode/chrome",
+            //"trace":"verbose",
+            "pathMapping": {
+                "/preview-scripts/assets": "${workspaceRoot}/temp/quick-scripts/assets",
+                "/": "${workspaceRoot}"
+            }    
+        }
+    ]
+}
